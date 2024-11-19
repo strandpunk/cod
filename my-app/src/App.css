@@ -1,0 +1,15 @@
+.App-wrapper {
+  background-color: #2e2e2e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  color: white;
+}
+
+.Card-wrapper {
+  display: flex;
+  flex-direction: row;
+}

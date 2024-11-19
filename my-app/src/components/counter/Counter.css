@@ -1,0 +1,80 @@
+.Counter-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 380px;
+    max-width: 450px;
+    margin: 0;
+    padding: 10px;
+
+    box-sizing: border-box;
+}
+
+.Counter-layout {
+
+    border-radius: 15px;
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    margin-top: 14px;
+
+}
+
+
+.Counter-status {
+    background-color: lightslategray;
+    height: 60px;
+    width: 280px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Counter-button__minus,
+.Counter-button__plus {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 10px;
+    background-color: lightslategray;
+    cursor: pointer;
+
+
+}
+
+.Counter-button__minus:hover,
+.Counter-button__plus:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.Counter-button__minus {
+    border-radius: 15px 0px 0px 15px;
+}
+
+.Counter-button__plus {
+    border-radius: 0px 15px 15px 0px;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+
+    border-radius: 10px;
+
+}
